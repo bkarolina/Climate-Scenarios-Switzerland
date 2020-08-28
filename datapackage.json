@@ -1,0 +1,75 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Stations",
+      "path": "data/stations_CH2018.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Index",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "STATION_NAME",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAT_ABBR",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "LATITUDE",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "LONGITUDE",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "XCOORD",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "YCOORD",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ELEVATION",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "Stations",
+    "Climate"
+  ],
+  "title": "Stations",
+  "name": "Stations_CH2018",
+  "description": "Climate Scenarios for Switzerland. National Centre for Climate Services.",
+  "homepage": "https://www.nccs.admin.ch/nccs/de/home/materialien-und-daten/daten/ch2018---klimaszenarien-fuer-die-schweiz.html",
+  "contributors": [
+    {
+      "title": "Karolina Bzdusek",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
