@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "Stations",
+      "name": "stations",
       "path": "data/stations_CH2018.csv",
       "profile": "tabular-data-resource",
       "schema": {
@@ -55,8 +55,8 @@
     "Stations",
     "Climate"
   ],
-  "title": "Stations",
-  "name": "Stations_CH2018",
+  "title": "meteorological stations",
+  "name": "stations_ch2018",
   "description": "Climate Scenarios for Switzerland. National Centre for Climate Services.",
   "homepage": "https://www.nccs.admin.ch/nccs/de/home/materialien-und-daten/daten/ch2018---klimaszenarien-fuer-die-schweiz.html",
   "contributors": [
